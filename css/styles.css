@@ -1,0 +1,245 @@
+:root {
+  --primary-body-color: #ffffff;
+  --secondary-body-colour: #f5f4fa;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --footer-background-color: #2f303a;
+  --text-color: #212121;
+  --hero-button-active: #188ceb;
+  --black: #000000;
+}
+
+/* General decoration */
+
+.link,
+.page-logo,
+.portfolio-link,
+.location,
+.header-contacts,
+.nav-link,
+.footer-econtacts {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+.site-nav,
+.contacts-nav,
+.features,
+.work-sample,
+.team,
+.footer-adress,
+.footer-contacts,
+.filter-list,
+.portfolio-list {
+  list-style: none;
+}
+
+.header-contacts:hover,
+.header-contacts:focus,
+.nav-link:hover,
+.nav-link:focus,
+.footer-econtacts:hover,
+.footer-econtacts:focus,
+.location:hover,
+.location:focus {
+  color: var(--accent-color);
+}
+
+/* Logo */
+
+.page-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-part {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+/* Nav section */
+
+.nav-link {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.page-header {
+  line-height: 1.34;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--footer-background-color);
+}
+
+.footerlogo-part {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-body-color);
+}
+
+.location {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-body-color);
+}
+
+.footer-adress {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-body-color);
+}
+
+.footer-econtacts {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hero main */
+
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-body-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  color: var(--primary-body-color);
+  border: 1px solid var(--black);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-body-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* Feature section */
+
+.feature-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.feature-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Our team */
+
+.section-team {
+  background-color: var(--secondary-body-colour);
+}
+
+.employee-card {
+  background-color: var(--primary-body-color);
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.employee-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio main */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus .filter-button:active {
+  color: var(--primary-body-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.portfolio-group {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
