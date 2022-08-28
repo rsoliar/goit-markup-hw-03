@@ -157,7 +157,15 @@ body {
   cursor: pointer;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  /* border-radius: 4px; */
+  border-radius: 4px;
+  border: none;
+  width: 216px;
+  left: 692px;
+  height: 50px;
+  top: 430px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hero-button:focus,
@@ -241,15 +249,25 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: inherit;
+  letter-spacing: 0.03em;
   color: var(--text-color);
   cursor: pointer;
+  border: none;
+  background: var(--secondary-body-colour);
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
   color: var(--primary-body-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-name {
@@ -306,6 +324,11 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 30px;
+  padding-left: 0;
+}
+
+.features-card {
+  width: 270px;
 }
 
 .container-section-work {
@@ -356,11 +379,16 @@ img {
 }
 
 .hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
   width: 696px;
   text-align: center;
   align-items: center;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .section,
@@ -434,7 +462,7 @@ p {
   padding-left: 0;
 }
 
-.footer-adress {
+.footer-list {
   margin-top: 20px;
 }
 
